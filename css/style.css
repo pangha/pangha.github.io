@@ -1,0 +1,120 @@
+body {
+	margin: 0px;
+	background: url(../img/bg.jpg);
+	font-size: 14px;
+	font-weight: 300;
+	font-family: "Lato","Helvetica Neue","Arial",Sans-Serif;
+}
+.navbar {
+	background-color: #fff;
+	height: 50px;
+}
+.list {
+	list-style-type: none;
+	padding: 0px;
+	margin: 20px 0px;
+}
+.list li {
+	margin-bottom: 3px;
+	height: 38px;
+	position: relative;
+}
+.title {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: #39758F; 
+}
+.container {
+	margin: 20px auto;
+	width: 600px;
+}
+.input-warpper {
+	margin: 20px 0px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px;
+}
+::-webkit-input-placeholder {
+	color:#fff; 
+	text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+.inputbox {
+	width: 584px;
+	outline: none;
+	border: 0px;
+	padding: 0px 8px;
+	background-color: transparent;
+	color: #fff;
+	font-size: 15px;
+}
+.task-warpper {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 15px;
+	position: relative;
+}
+.list li .ck-warpper {
+	position: absolute;
+	top: 12px;
+	left: 10px;
+	color: #888;
+}
+.list li .checkbox {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	cursor: pointer;
+	border: 1px solid #888;
+	border-radius: 3px;
+}
+.list li .text {
+	color: #2c3e50;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	margin-left: 30px;
+}
+.donum {
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+#donelist .task-warpper {
+	background-color: rgba(255,255,255,0.5);
+}
+#donelist .text {
+	text-decoration: line-through;
+	color: #888;
+}
+#donelist .checkbox:after {
+	font-family: FontAwesome;
+	content: "\f00c";
+	color: #888;
+	position: absolute;
+	top: -1px;
+	left: 3px;
+}
+#donelist a.close {
+	display: none;
+}
+.close {
+	color: rgba(255,255,255,0);
+	font-size: 24px;
+	position: absolute;
+	right: -40px;
+	top: 7px;
+}
+.close :hover {
+	color: rgba(255,255,255,0.8);
+}
+
+
+

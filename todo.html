@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TODO</title>
+	<link rel="stylesheet" href="../todo2/css/style.css">
+	<link rel="stylesheet" href="../todo2/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="navbar">
+		<a class="title" href="javascript:;"><i class="fa fa-tasks">&nbsp;&nbsp;TODOList</i></a>
+	</div>
+	<div class="container">
+		<div class="input-warpper">
+			<input class="inputbox" placeholder="+新添加一个任务" type="text">
+		</div>
+		<ul class="list" id="newlist"></ul>
+		<a href="javascript:;" class="donum"><span class="finishnum">0</span>个已完成任务</a>
+		<ul class="list" id="donelist"></ul>
+	</div>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/template" id="liTemplate">
+		<li>
+			<div class="task-warpper">
+				<a href="javascript:;" class="ck-warpper">
+					<span class="checkbox"></span>
+				</a>
+				<span class="text">{{title}}</span>
+			</div>
+			<a class="close" href="javascript:;">
+				<i class="fa fa-minus-circle"></i>
+			</a>
+		</li>
+	</script>
+	<script src="../todo2/js/todo.js"></script>
+
+</body>
+</html>
